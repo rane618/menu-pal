@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>488069798228-icio7u2k7ka04pgckdrl4uegsublird3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.488069798228-icio7u2k7ka04pgckdrl4uegsublird3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBQmD_qSYA_l8pGJNIOdr3MmvyEkewe65k</string>
+	<key>GCM_SENDER_ID</key>
+	<string>488069798228</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.menopal</string>
+	<key>PROJECT_ID</key>
+	<string>meno-pal</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meno-pal.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:488069798228:ios:aac0ed079090007779d0c1</string>
+</dict>
+</plist>

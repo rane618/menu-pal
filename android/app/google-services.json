@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "488069798228",
+    "project_id": "meno-pal",
+    "storage_bucket": "meno-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488069798228:android:f0176163f4784f6679d0c1",
+        "android_client_info": {
+          "package_name": "com.example.menopal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488069798228-u8gb9p2cosekjqd0v0vk9ssu83sq7ffc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiHsPzRHzX4_Q4dSRXKDCBuCx4qIIOuo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488069798228-u8gb9p2cosekjqd0v0vk9ssu83sq7ffc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
