@@ -11,7 +11,7 @@ class InAppWebViewPage extends StatefulWidget {
 }
 
 class _InAppWebViewPageState extends State<InAppWebViewPage> {
-  late InAppWebViewController _webViewController;
+  InAppWebViewController? _webViewController;
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,9 @@ class _InAppWebViewPageState extends State<InAppWebViewPage> {
       backgroundColor: Colors.white,
       appBar: AppBar(title: const Text('Article')),
       body: InAppWebView(
-        initialUrlRequest: URLRequest(url: Uri.parse(widget.initialUrl)),
+        initialUrlRequest: URLRequest(
+          url: WebUri(widget.initialUrl), // Assuming WebUri accepts a String
+        ),
         onWebViewCreated: (controller) {
           setState(() {
             _webViewController = controller;
@@ -27,5 +29,17 @@ class _InAppWebViewPageState extends State<InAppWebViewPage> {
         },
       ),
     );
+  }
+
+  void someFunctionUsingWebViewController() {
+    if (_webViewController != null) {
+      // Use _webViewController safely
+      _webViewController!.loadUrl(
+        urlRequest: URLRequest(url: WebUri('https://example.com')),
+      );
+    } else {
+      // Handle the case where _webViewController is not set yet
+      print('WebViewController is not yet initialized.');
+    }
   }
 }

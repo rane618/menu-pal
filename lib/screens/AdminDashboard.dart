@@ -139,8 +139,10 @@ class AdminDashboardUI extends StatelessWidget {
                       IconButton(
                         icon: Icon(Icons.photo_library),
                         onPressed: () async {
-                          final pickedImage = await ImagePicker()
-                              .getImage(source: ImageSource.gallery);
+                          final ImagePicker _picker = ImagePicker();
+                          final XFile? pickedImage = await _picker.pickImage(
+                              source: ImageSource.gallery);
+
                           if (pickedImage != null) {
                             // Handle the selected image from gallery
                             // Update the text field with the image URL
