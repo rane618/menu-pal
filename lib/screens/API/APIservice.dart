@@ -4,7 +4,7 @@ import 'Article.dart';
 
 class ApiService {
   static const _baseUrl =
-      'https://newsapi.org/v2/everything?q=women%20period%20menstruation&pageSize=10&page=1&apiKey=6e565f3f22b84ad09ec97ace6cd615c7';
+      'https://newsapi.org/v2/everything?q=women%20period%20menstruation&pageSize=10&page=1&apiKey=75af6b5c142a49109f2716983d1cf200';
 
   static Future<List<Article>> getArticles() async {
     final response = await http.get(Uri.parse(_baseUrl));
